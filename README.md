@@ -95,22 +95,36 @@ This repository includes the codes used to perform analyses for the mentioned st
    
 ### 4. MR_PRESSO_Analysis.R
 
-   * The aim of this Rscript is to perform the MR-PRESSO analyses for all nine risk factors.
+The aim of this Rscript is to perform the MR-PRESSO analyses for all nine risk factors.
      
-      * MR_PRESSO was performed via R base in the terminal. Because of this, it has a separate script.
+MR_PRESSO was performed via R base in the terminal. Because of this, it has a separate script.
    
 ### 5. MR_Manuscript_And_Supplemental_Figures.R
 
-   * The aim of this Rscript is to create figures in the main manuscript, and in the supplemental file, including:
+The aim of this Rscript is to create figures in the main manuscript, and in the supplemental file, including:
 
-     manuscript figure 1. Causal breast cancer subtype-specific effect estimates per unit increase for nine established breast cancer risk factors. 
+manuscript figure 1. Causal breast cancer subtype-specific effect estimates per unit increase for nine established breast cancer risk factors. 
     
-     manuscript figure 2. Overview of evidence for (subtype-specific) causal effects per increasing unit of the risk factor. 
+manuscript figure 2. Overview of evidence for (subtype-specific) causal effects per increasing unit of the risk factor. 
     
-     supplemental figure 2. Forrest plots with causal effects of nine risk factors on each hormone receptor breast cancer subtype across primary and secondary MR methods.
+supplemental figure 2. Forrest plots with causal effects of nine risk factors on each hormone receptor breast cancer subtype across primary and secondary MR methods.
     
-     supplemental figure 3. Causal effect estimates for age at menarche from univariable and multivariable MR analysis.
+supplemental figure 3. Causal effect estimates for age at menarche from univariable and multivariable MR analysis.
  
 ### 6. MR_Manuscript_And_Suuplemental_Tables.R
+
+The aim of this Rscript is to create tables in the main manuscript, and in the supplemental file, including:
+
+manuscript table 2. Subtype-specific causal effect estimates per unit increase for all nine breast cancer risk factors across primary and secondary MR analyses.
+
+supplemental table 3. Calculated F-statistics for each included risk factor.
+
+supplemental table 4. Results of primary and secondary MR analyses with female-specific estimates for height, BMI and physical activity.
     
 ## Part 2: Summary-level data
+
+For our two-sample MR study, we used the summary-level data for both the risk factors and outcomes of interest. 
+
+Specifically, we extracted summary statistics for SNP-risk factor and SNP-breast cancer subtype associations from different GWAS.
+
+
