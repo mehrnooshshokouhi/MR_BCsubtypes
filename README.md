@@ -94,7 +94,8 @@ This repository includes the codes used to perform analyses for the mentioned st
       3.2.9 Saves the results from these analyses
    
 ### 4. MR_PRESSO_Analysis.R
-   * 
+   * The aim of this Rscript is to perform the MR-PRESSO analyses for all nine risk factors.
+      * MR_PRESSO was performed via R base in the terminal. Because of this, it has a separate script.
    
 7. MR_Manuscript_And_Supplemental_Figures.R
     
