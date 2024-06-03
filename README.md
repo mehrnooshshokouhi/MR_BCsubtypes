@@ -94,11 +94,23 @@ This repository includes the codes used to perform analyses for the mentioned st
       3.2.9 Saves the results from these analyses
    
 ### 4. MR_PRESSO_Analysis.R
+
    * The aim of this Rscript is to perform the MR-PRESSO analyses for all nine risk factors.
+     
       * MR_PRESSO was performed via R base in the terminal. Because of this, it has a separate script.
    
-7. MR_Manuscript_And_Supplemental_Figures.R
+### 5. MR_Manuscript_And_Supplemental_Figures.R
+
+   * The aim of this Rscript is to create figures in the main manuscript, and in the supplemental file, including:
+
+     manuscript figure 1. Causal breast cancer subtype-specific effect estimates per unit increase for nine established breast cancer risk factors. 
     
-8. MR_Manuscript_And_Suuplemental_Tables.R
+     manuscript figure 2. Overview of evidence for (subtype-specific) causal effects per increasing unit of the risk factor. 
+    
+     supplemental figure 2. Forrest plots with causal effects of nine risk factors on each hormone receptor breast cancer subtype across primary and secondary MR methods.
+    
+     supplemental figure 3. Causal effect estimates for age at menarche from univariable and multivariable MR analysis.
+ 
+### 6. MR_Manuscript_And_Suuplemental_Tables.R
     
 ## Part 2: Summary-level data
