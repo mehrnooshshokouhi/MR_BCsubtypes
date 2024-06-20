@@ -127,4 +127,6 @@ For our two-sample MR study, we used the summary-level data for both the risk fa
 
 Specifically, we extracted summary statistics for SNP-risk factor and SNP-breast cancer subtype associations from different GWAS.
 
+The references for the relevant GWAS have been included in the manuscript accordingly.
+
 
