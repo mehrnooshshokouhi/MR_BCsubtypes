@@ -111,7 +111,7 @@ supplemental figure 2. Forrest plots with causal effects of nine risk factors on
     
 supplemental figure 3. Causal effect estimates for age at menarche from univariable and multivariable MR analysis.
  
-### 6. MR_Manuscript_And_Suuplemental_Tables.R
+### 6. MR_Manuscript_And_Supplemental_Tables.R
 
 The aim of this Rscript is to create tables in the main manuscript, and in the supplemental file, including:
 
@@ -120,6 +120,12 @@ manuscript table 2. Subtype-specific causal effect estimates per unit increase f
 supplemental table 3. Calculated F-statistics for each included risk factor.
 
 supplemental table 4. Results of primary and secondary MR analyses with female-specific estimates for height, BMI and physical activity.
+
+### 7. MR_heterogeneity.R
+
+The aim of this Rscript is to calculate % of heterogeneity across subtype-specific estimates.
+
+We calculated I2 estimates through meta-analysis of the five subtype-specific effects estimates per risk factor using random-effect models implemented in the metafor R-package.
     
 ## Part 2: Summary-level data
 
