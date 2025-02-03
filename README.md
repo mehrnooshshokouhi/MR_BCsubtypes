@@ -92,6 +92,8 @@ This repository includes the codes used to perform analyses for the mentioned st
       3.2.8 Performs a MR-PRESSO analysis
          
       3.2.9 Saves the results from these analyses
+
+  * This script also includes the heterogeneity calculation (%) across subtype-specific estimates of the primary and secondary analysis.
    
 ### 4. MR_PRESSO_Analysis.R
 
@@ -121,12 +123,7 @@ supplemental table 3. Calculated F-statistics for each included risk factor.
 
 supplemental table 4. Results of primary and secondary MR analyses with female-specific estimates for height, BMI and physical activity.
 
-### 7. MR_heterogeneity.R
-
-The aim of this Rscript is to calculate % of heterogeneity across subtype-specific estimates.
-
-We calculated I2 estimates through meta-analysis of the five subtype-specific effects estimates per risk factor using random-effect models implemented in the metafor R-package.
-    
+ 
 ## Part 2: Summary-level data
 
 For our two-sample MR study, we used the summary-level data for both the risk factors and outcomes of interest. 
